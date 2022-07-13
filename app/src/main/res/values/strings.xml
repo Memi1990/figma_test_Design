@@ -14,5 +14,10 @@
     <string name="reg">Register</string>
     <string name="haveAccount">Already have an account?</string>
     <string name="Sing">Sing in</string>
+    <string name="welBack">Welcome back</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="enter">Confirm</string>
+    <string name="already">Still haven\'t an account?</string>
+    <string name="regi">Register now!</string>
 
 </resources>

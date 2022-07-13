@@ -124,7 +124,8 @@
         android:layout_gravity="center_horizontal"
         android:background="@drawable/button"
         android:text="@string/reg"
-        android:translationY="600dp" />
+        android:translationY="600dp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/tvAlready"

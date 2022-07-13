@@ -1,14 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SingInFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <ImageView
+        android:id="@+id/ivCircle5"
+        android:layout_width="128dp"
+        android:layout_height="152dp"
+        android:src="@drawable/circle"
+        android:translationX="-35dp"
+        android:translationY="-10dp"
+        tools:ignore="ImageContrastCheck" />
 
+    <ImageView
+        android:id="@+id/ivcircle6"
+        android:layout_width="160dp"
+        android:layout_height="152dp"
+        android:src="@drawable/circle"
+        android:translationX="-5dp"
+        android:translationY="-55dp"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvWelBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationY="150dp" />
+
+    <ImageView
+        android:id="@+id/ivDoggy"
+        android:layout_width="wrap_content"
+        android:layout_height="635dp"
+        android:src="@drawable/welcomeback" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edcustom"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/black"
+        android:translationY="450dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/etCPass"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edcustom"
+        android:ems="10"
+        android:hint="@string/confirm"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/black"
+        android:translationY="510dp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/forgot"
+        android:translationY="560dp" />
+
+    <Button
+        android:id="@+id/btnAccess"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/enter"
+        android:translationY="600dp"
+        android:background="@drawable/button"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvMess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already"
+        android:translationX="90dp"
+        android:translationY="650dp" />
+
+    <TextView
+        android:id="@+id/tvReg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regi"
+        android:translationX="250dp"
+        android:translationY="650dp"
+        android:textColor="@color/purple_500tran"
+        android:textStyle="bold"/>
 </FrameLayout>
