@@ -5,4 +5,14 @@
     <string name="title">Figma Test App Design</string>
     <string name="lorem">Bacon ipsum dolor amet tri-tip porchetta venison, meatball pork chop shankle brisket pig shank buffalo drumstick sirloin.</string>
     <string name="start">Get Started</string>
+    <string name="welcome">Welcome to Onboard</string>
+    <string name="sub">Let\'s help you meet up your tasks</string>
+    <string name="name">Enter your name</string>
+    <string name="mail">Enter your email</string>
+    <string name="pass">Enter your password</string>
+    <string name="confirm">Confirm your password</string>
+    <string name="reg">Register</string>
+    <string name="haveAccount">Already have an account?</string>
+    <string name="Sing">Sing in</string>
+
 </resources>

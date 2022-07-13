@@ -29,7 +29,7 @@
         android:src="@drawable/dog_walking" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvTtle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -41,7 +41,7 @@
         android:translationY="450dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvPresent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"

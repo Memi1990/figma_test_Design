@@ -1,14 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegistrerFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
+    <ImageView
+        android:id="@+id/ivCircle3"
+        android:layout_width="128dp"
+        android:layout_height="152dp"
+        android:src="@drawable/circle"
+        android:translationX="-35dp"
+        android:translationY="-10dp"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageView
+        android:id="@+id/ivcircle4"
+        android:layout_width="160dp"
+        android:layout_height="152dp"
+        android:src="@drawable/circle"
+        android:translationX="-5dp"
+        android:translationY="-55dp"
+        tools:ignore="ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:translationY="150dp" />
+
+    <TextView
+        android:id="@+id/tvSub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:lineSpacingMultiplier="1.3"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:text="@string/sub"
+        android:translationY="200dp" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edcustom"
+        android:ems="10"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/black"
+        android:translationY="250dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/etMail"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edcustom"
+        android:ems="10"
+        android:hint="@string/mail"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/black"
+        android:translationY="320dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edcustom"
+        android:ems="10"
+        android:hint="@string/pass"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/black"
+        android:translationY="390dp"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/etConPass"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edcustom"
+        android:ems="10"
+        android:hint="@string/confirm"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:textColorHint="@color/black"
+        android:translationY="460dp"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="334dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button"
+        android:text="@string/reg"
+        android:translationY="600dp" />
+
+    <TextView
+        android:id="@+id/tvAlready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/haveAccount"
+        android:translationX="100dp"
+        android:translationY="650dp" />
+
+    <TextView
+        android:id="@+id/tvSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Sing"
+        android:textColor="@color/purple_500tran"
+        android:textStyle="bold"
+        android:translationX="270dp"
+        android:translationY="650dp" />
 </FrameLayout>
