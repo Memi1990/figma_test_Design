@@ -8,10 +8,13 @@
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/drawable/edcustom.xml" value="0.3675" />
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/drawable/edselect.xml" value="0.3665" />
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/drawable/etbox.xml" value="0.3665" />
+        <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/drawable/rectangle.xml" value="0.3665" />
+        <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/drawable/white_circle.xml" value="0.3665" />
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/layout/activity_main.xml" value="0.24210526315789474" />
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/layout/fragment_init.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/layout/fragment_registrer.xml" value="0.36666666666666664" />
         <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/layout/fragment_sing_in.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/Test_App_Design/app/src/main/res/layout/fragment_welcome.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
